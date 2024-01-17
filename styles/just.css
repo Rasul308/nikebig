@@ -1,0 +1,28 @@
+.just{
+    background: url(../img/justbg.png) no-repeat center/cover;
+    height: 557px;
+}
+.just__wrap{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #BABABA80;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    height: 154px;
+    margin-left: 50px;
+}
+.just__title{
+    font-family: 'RB';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.just__text{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}

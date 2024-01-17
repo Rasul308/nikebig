@@ -1,0 +1,29 @@
+.footer{
+    background: #322E41;
+    padding: 14px 0px;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding-bottom: 23px;
+}
+.footer__nav-list{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.footer__nav-list-item-link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+    transition: 0.1s ease-in;
+    padding: 23px 15px;
+    cursor: pointer;
+}
+.footer__nav-list-item-link:hover{
+    color: #FFE600;
+    border-bottom: 2px solid white;
+}
