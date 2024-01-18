@@ -60,3 +60,23 @@
     left: 270px;
     bottom: 32px;
 }
+@media screen and (max-width:1450px) {
+    .cards__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+    }
+}
+@media screen and (max-width:360px) {
+    .cards__card{
+        width: 310px;
+        position: relative;
+    }
+    .cards__card img{
+        width: 308px;
+    }
+    .cards__card-price{
+        left: 255px;
+        bottom: 40px;
+    }
+}

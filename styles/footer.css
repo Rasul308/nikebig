@@ -27,3 +27,18 @@
     color: #FFE600;
     border-bottom: 2px solid white;
 }
+@media screen and (max-width:680px) {
+    .footer__nav-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer__nav-list-item-link{
+        padding: 11px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer__nav-list-item-link{
+        padding: 9.5px;
+    }
+}

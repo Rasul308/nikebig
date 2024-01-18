@@ -26,3 +26,10 @@
     font-weight: 700;
     line-height: 47px;
 }
+@media screen and (max-width:500px) {
+    .just__wrap{
+        align-items: center;
+        margin: 0 auto;
+        width: 250px;
+    }
+}

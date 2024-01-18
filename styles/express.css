@@ -24,7 +24,6 @@
 .express__cards{
     margin-top: 40px;
     display: flex;
-    flex-direction: row;
     gap: 30px;
 }
 .express__cards-card{
@@ -43,4 +42,16 @@
     z-index: 100;
     bottom: 15px;
     left: 15px;
+}
+@media screen and (max-width:1140px) {
+    .express__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:370px) {
+    .express__cards-card-img{
+        width: 300px;
+        height: 450px;
+    }
 }

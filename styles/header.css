@@ -28,11 +28,20 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: 10px;
+    }
+    .header__nav-list-item-link{
+        padding: 11px;
     }
 }
 @media screen and (max-width:624px) {
     .header__nav{
         flex-direction: column;
         gap: 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .header__nav-list-item-link{
+        padding: 9.5px;
     }
 }
